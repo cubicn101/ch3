@@ -13,7 +13,7 @@ public class Temperature {
      int c = in.nextInt();
      double f = c * 9.0/5.0 +32;
      
-     System.out.printf("Equal to %.2f F", f );
+     System.out.printf("Equal to %.1f F", f );
      // placeholder: that let the following words in the same quotation mark?
    }
 }
